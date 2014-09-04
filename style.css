@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: red;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: blue;
+  margin: 0 auto;
+}
+
+ul {
+list-style-type: none;
+display: inline;
+text-align: center;
+}
+
+.photo {
+  width: 20%;
+    height: 20%;
+  margin-bottom: 2%;
+}
+
+#craig {
+  content: url('https://avatars2.githubusercontent.com/u/7566797?v=2&s=460');
+  margin-left: 25%;
+}
+
+#matt {
+  content: url('https://avatars0.githubusercontent.com/u/8334911?v=2&s=460');
+  float: right;
+  margin-right: 25%;
+}
+
