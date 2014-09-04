@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 
- <html class="no-js">
+ <html manifest="index.appcache">
  <link rel="stylesheet" type="text/css" href="style.css">
     <head>
       <title>Grant/Wojo</title>
     </head>
     <header>
-      <h1>Grant/Wojo</h1>
+      <h1 itemscope itemtype="http://data-vocabulary.org/Person"><span itemprop="Name">Craig Grant</span>/<span itemprop="Name">Matt Wojo</span></h1>
     </header>
     <body>
       <p>Hello world! This is our website.</p>
-      <div class="photo" id="matt">
+      <div itemprop="url" class="photo" id="matt">
       </div>
-      <div class="photo" id="craig">
+      <div itemprop="url" class="photo" id="craig">
       </div>
       <h2>We like to make:</h2>
       <ul>
@@ -21,5 +21,6 @@
         <li>Other devs cry when they see our awesomeness.</li>
         <li>Party.</li>
       </ul>
+      <p>We are students at Codefellows located on <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/PostalAddress">511 Boren Ave. Seattle Wa.</span> Although both new to web development and design we hope to build a strong base knowledge to kickstart our careers.</p>
     </body>
 </html>
