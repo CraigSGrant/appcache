@@ -22,8 +22,13 @@ display: inline;
 text-align: center;
 }
 
+div {
+  width: 20%;
+  padding: 1em;
+}
+
 div img {
-  width: 300px;
+  width: 100%;
   height: auto;
   margin-bottom: 2%;
 }
